@@ -1,0 +1,26 @@
+student
+(*person_id, *major, admission)
+person_id -> person
+major -> department
+
+student_clubs
+(*club_name, *primary_contact, mission_statement)
+p_contact -> student(person_id)
+
+membership
+(*club_name, *member_id, start_id, end_date)
+club_name -> student_clubs
+member_id -> student(person_id)
+
+message_board
+(*club_name, *author_id, *message_date, message, num_of_likes)
+club_name, author_id -> membership(club_name, member_id)
+
+likes
+(*club_name, *author_id, *message_date, *liker_id, liked_timestamp)
+club_name, author_id, date -> message_board
+liker_id -> membership(member_id)
+
+friends
+
+
