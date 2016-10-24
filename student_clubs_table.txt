@@ -1,6 +1,6 @@
-TriBeta	1275	We are a science.
-PANDAS	518	We are Python enthusiats.
-Pen 15 Club	9209	We are pen collectors.
-Kool Kids Klub	4151	We are the kool kids of the school
-American Chemical Society	9793	We are american undergraduate chemist
-Pre-health Professionals	7920	We are future health professions
+TriBeta	3980	We are a science.
+PANDAS	6857	We are Python enthusiats.
+Pen 15 Club	5983	We are pen collectors.
+Kool Kids Klub	4553	We are the kool kids of the school
+American Chemical Society	3979	We are american undergraduate chemist
+Pre-health Professionals	196	We are future health professions

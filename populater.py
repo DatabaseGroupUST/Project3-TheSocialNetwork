@@ -41,14 +41,49 @@ with open("./student_clubs_table.txt", 'w') as myFile:
         myFile.write(ms[i])
         myFile.write('\n')
 
+members = []
 with open("./membership_table.txt", 'w') as myFile:
+    for i in range(0,50):
+       members.append(str(random.randint(0,10000)))
+
     for i in range(0,50):
         myFile.write(clubs[random.randint(0,5)])
         myFile.write('\t')
-        myFile.write(str(random.randint(0,10000)))
+        myFile.write(members[i])
         myFile.write('\t')
         myFile.write(randomDate("1/1/2008 1:30 PM", "1/1/2009 4:50 AM", random.random()))
         myFile.write('\t')
         myFile.write(randomDate("1/1/2014 1:30 PM", "1/1/2015 4:50 AM", random.random()))
         myFile.write('\n')
 
+with open("./message_board.txt", 'a') as myFile:
+    message = ["Hi",
+               "Yolo",
+               "420",
+               "Blaze",
+               "can",
+               "you",
+               "dig",
+               "it!",
+               "Swagger",
+               "Shampoo",
+               "makes",
+               "awesome",
+               "hair",
+               "This",
+               "is",
+               "a",
+               "message",
+               "verb",
+               "subject",
+               "predicate"]
+
+    for i in range(0,100):
+        myFile.write(str(i))
+        myFile.write('\t')
+        myFile.write(str(members[random.randint(0,50)]))
+        myFile.write('\t')
+        myFile.write(clubs[random.randint(0,5)])
+        myFile.write('\t')
+        myFile.write(message[random.randint(0,19)])
+        myFile.write('\n')
