@@ -8,30 +8,43 @@ CREATE TABLE STUDENT_CLUBS
 
 CREATE TABLE MEMBERSHIP
 (
-    club_name VARCHAR(255),
-    member_id INTEGER,
-    start_date DATE,
-    end_date DATE,
-    PRIMARY KEY (club_name),
-    PRIMARY KEY (member_id),
-    FOREIGN KEY (:)
-membership
-(*club_name, *member_id, start_id, end_date)
-club_name -> student_clubs
-member_id -> student
+    club_name VARCHAR(255) NOT NULL,
+    member_id INTEGER NOT NULL,
+    start_id DATE NOT NULL,
+    end_date DATE NULL,
+    PRIMARY KEY (club_name, member_id),
+    FOREIGN KEY (club_name) REFERENCES STUDENT_CLUBS(club_name),
+    FOREIGN KEY (member_id) REFERENCES STUDENT(person_id),
+);
 
-message_board
-(*message_date, *author_id, club_name, message, num_of_likes)
-club_name, author_id -> membership(club_name, member_id)
+CREATE TABLE MESSAGE_BOARD
+(
+    message_id INTEGER NOT NULL,
+    author_id INTEGER NOT NULL,
+    club_name VARCHAR(255) NOT NULL,
+    message TEXT NOT NULL,
+    PRIMARY KEY (message_id),
+    FOREIGN KEY (club_name, author_id) REFERENCES membership(club_name, member_id)
+);
 
-likes
-(*liked_timestamp, *liker_id, club_name, author_id)
-club_name, author_id, date -> message_board
-liker_id -> membership(member_id)
+CREATE TABLE LIKES
+(
+    like_id INTEGER NOT NULL,
+    liked_timestamp TIMESTAMP NOT NULL,
+    liker_id INTEGER NOT NULL,
+    club_name VARCHAR(255) NOT NULL,
+    author_id INTEGER NOT NULL,
+    message_id INTEGER NOY NULL,
+    PRIMARY KEY(like_id),
+    FOREIGN KEY (club_name, liker_id) REFERENCES MEMBERSHIP(club_name, member_id)
+);
 
-friends
-(*person_id, *person_id, friend_status, invite_status)
-person_id -> student
-person_id -> student
-
-
+CREATE TABLE FRIENDS
+(
+    person1 INTEGER NOT NULL,
+    person2 INTEGER NOT NULL,
+    status ENUM('INVITED', 'ACCEPTED' , 'REJECTED') NOT NULL,
+    PRIMARY KEY (person1),
+    PRIMARY KEY (person2),
+    FOREIGN KEY (person1) REFERENCES STUDENT(person_id)
+)
