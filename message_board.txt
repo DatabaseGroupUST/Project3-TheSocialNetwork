@@ -150,3 +150,299 @@
 97	2768	TriBeta	Blaze
 98	5573	Pen 15 Club	predicate
 99	2528	Pre-health Professionals	makes
+0	7257	TriBeta	Blaze
+1	7106	Pen 15 Club	Hi
+2	3401	Kool Kids Klub	you
+3	2046	PANDAS	makes
+4	2046	American Chemical Society	you
+5	7111	Kool Kids Klub	message
+6	9817	Pen 15 Club	dig
+7	7631	American Chemical Society	awesome
+8	9817	American Chemical Society	verb
+9	6217	Pre-health Professionals	hair
+10	7106	American Chemical Society	can
+11	7316	TriBeta	Shampoo
+12	9256	Kool Kids Klub	Blaze
+13	7518	Pen 15 Club	420
+14	7518	PANDAS	awesome
+15	2428	American Chemical Society	verb
+16	5243	Kool Kids Klub	Yolo
+17	6926	PANDAS	Hi
+18	1046	Pen 15 Club	This
+19	0	4453	TriBeta	makes
+1	3893	Pre-health Professionals	is
+2	3662	Pen 15 Club	Hi
+3	7263	Pen 15 Club	subject
+4	8672	PANDAS	Hi
+5	8672	Pen 15 Club	subject
+6	1302	TriBeta	a
+7	9710	Pen 15 Club	hair
+8	3194	PANDAS	message
+9	2333	American Chemical Society	verb
+10	4453	American Chemical Society	This
+11	5288	Kool Kids Klub	This
+12	7398	Pen 15 Club	a
+13	3806	Pen 15 Club	a
+14	8237	Pen 15 Club	dig
+15	3893	PANDAS	makes
+16	4524	TriBeta	awesome
+17	9397	American Chemical Society	you
+18	7729	PANDAS	Yolo
+19	6322	American Chemical Society	awesome
+20	6322	PANDAS	verb
+21	5508	PANDAS	Shampoo
+22	5731	Pen 15 Club	verb
+23	4913	Kool Kids Klub	is
+24	5111	PANDAS	Swagger
+25	7750	Pen 15 Club	you
+26	6322	TriBeta	predicate
+27	229	American Chemical Society	Shampoo
+28	787	Pen 15 Club	Blaze
+29	3893	TriBeta	you
+30	3806	Pre-health Professionals	a
+31	4524	Kool Kids Klub	message
+32	229	PANDAS	This
+33	2333	Pre-health Professionals	can
+34	723	TriBeta	420
+35	5731	Kool Kids Klub	subject
+36	4913	Kool Kids Klub	hair
+37	3359	PANDAS	Yolo
+38	2602	Pen 15 Club	predicate
+39	3893	American Chemical Society	420
+40	4524	TriBeta	it!
+41	6849	TriBeta	Hi
+42	5893	PANDAS	you
+43	3893	Kool Kids Klub	awesome
+44	3863	TriBeta	a
+45	4524	TriBeta	dig
+46	5731	PANDAS	message
+47	2333	TriBeta	makes
+48	5157	Pen 15 Club	message
+49	1302	Kool Kids Klub	it!
+50	6322	Pen 15 Club	Swagger
+51	6377	TriBeta	subject
+52	6849	Pen 15 Club	predicate
+53	9028	TriBeta	message
+54	5893	Pen 15 Club	hair
+55	5924	Kool Kids Klub	it!
+56	5731	Kool Kids Klub	it!
+57	6322	Kool Kids Klub	verb
+58	8126	American Chemical Society	predicate
+59	2602	PANDAS	can
+60	8237	American Chemical Society	dig
+61	3662	TriBeta	Swagger
+62	6666	TriBeta	420
+63	3359	Pen 15 Club	a
+64	9028	Pre-health Professionals	you
+65	5893	Pre-health Professionals	you
+66	5111	Kool Kids Klub	is
+67	5288	PANDAS	predicate
+68	3929	Pen 15 Club	can
+69	3863	Pre-health Professionals	can
+70	5731	Pen 15 Club	Swagger
+71	3929	Pre-health Professionals	Swagger
+72	5288	Pen 15 Club	verb
+73	7263	PANDAS	predicate
+74	4913	Pen 15 Club	Swagger
+75	1302	TriBeta	dig
+76	5893	TriBeta	it!
+77	0	5259	TriBeta	hair
+1	2721	Pre-health Professionals	can
+2	8181	Kool Kids Klub	dig
+3	7827	Pen 15 Club	message
+4	2311	American Chemical Society	it!
+5	6559	TriBeta	makes
+6	7217	Pen 15 Club	message
+7	9029	Pre-health Professionals	you
+8	7827	Pre-health Professionals	Shampoo
+9	7892	PANDAS	predicate
+10	9462	Pen 15 Club	subject
+11	6089	PANDAS	This
+12	7431	PANDAS	makes
+13	9029	TriBeta	can
+14	9973	Pen 15 Club	Swagger
+15	2428	PANDAS	dig
+16	4302	TriBeta	dig
+17	2721	Pre-health Professionals	awesome
+18	4601	Pre-health Professionals	a
+19	2428	PANDAS	Yolo
+20	4647	Pre-health Professionals	subject
+21	7827	TriBeta	message
+22	7892	TriBeta	Blaze
+23	1391	PANDAS	This
+24	8181	TriBeta	can
+25	6559	Pen 15 Club	subject
+26	7431	Kool Kids Klub	420
+27	2311	Pen 15 Club	420
+28	2721	TriBeta	you
+29	9462	TriBeta	Yolo
+30	7892	PANDAS	This
+31	4302	Kool Kids Klub	makes
+32	6383	Kool Kids Klub	Yolo
+33	9462	American Chemical Society	Hi
+34	1391	American Chemical Society	can
+35	9029	Pen 15 Club	Hi
+36	1526	TriBeta	can
+37	7892	Pen 15 Club	This
+38	1526	TriBeta	verb
+39	6089	Kool Kids Klub	a
+40	4601	Pen 15 Club	is
+41	6383	American Chemical Society	hair
+42	5259	Pen 15 Club	awesome
+43	6089	PANDAS	hair
+44	4601	American Chemical Society	hair
+45	9029	Pen 15 Club	dig
+46	8181	TriBeta	awesome
+47	6383	TriBeta	message
+48	7827	American Chemical Society	awesome
+49	4601	Pen 15 Club	you
+50	6383	Pen 15 Club	Swagger
+51	2721	PANDAS	awesome
+52	9462	TriBeta	makes
+53	6089	Pen 15 Club	makes
+54	9973	Kool Kids Klub	Swagger
+55	9462	Pre-health Professionals	makes
+56	4601	Kool Kids Klub	Yolo
+57	9973	PANDAS	Swagger
+58	9973	Pre-health Professionals	dig
+59	2721	Pre-health Professionals	Shampoo
+60	7827	Pre-health Professionals	can
+61	2311	American Chemical Society	makes
+62	4302	Kool Kids Klub	makes
+63	2428	American Chemical Society	is
+64	6089	Kool Kids Klub	is
+65	5259	Pen 15 Club	This
+66	7827	PANDAS	you
+67	7827	Pre-health Professionals	Hi
+68	7217	Kool Kids Klub	makes
+69	1526	American Chemical Society	Shampoo
+70	2721	Pen 15 Club	awesome
+71	6089	Pen 15 Club	can
+72	6089	Pre-health Professionals	This
+73	1526	American Chemical Society	it!
+74	7827	Kool Kids Klub	420
+75	1526	American Chemical Society	makes
+76	4647	Pre-health Professionals	a
+77	9462	Kool Kids Klub	you
+78	9973	Pen 15 Club	hair
+79	1526	Pre-health Professionals	Hi
+80	1391	American Chemical Society	verb
+81	2428	Pen 15 Club	it!
+82	2428	Kool Kids Klub	Shampoo
+83	9462	Pre-health Professionals	makes
+84	6559	Pen 15 Club	dig
+85	2428	Pre-health Professionals	Yolo
+86	4647	Pre-health Professionals	it!
+87	7827	Pre-health Professionals	predicate
+88	2428	Pen 15 Club	verb
+89	4647	Pen 15 Club	you
+90	5259	Kool Kids Klub	420
+91	7827	TriBeta	you
+92	4647	American Chemical Society	Hi
+93	4647	PANDAS	420
+94	8181	PANDAS	dig
+95	1526	Pen 15 Club	420
+96	4601	Pen 15 Club	makes
+97	7431	PANDAS	it!
+98	5259	PANDAS	Hi
+99	7892	PANDAS	420
+0	4045	American Chemical Society	Shampoo
+1	7489	Pre-health Professionals	awesome
+2	4182	TriBeta	Swagger
+3	4052	Pen 15 Club	you
+4	9853	Pen 15 Club	Shampoo
+5	8709	TriBeta	can
+6	4404	Kool Kids Klub	message
+7	3750	Kool Kids Klub	Blaze
+8	4045	PANDAS	subject
+9	808	PANDAS	hair
+10	7612	Pre-health Professionals	it!
+11	8709	TriBeta	verb
+12	8838	Pen 15 Club	Blaze
+13	8281	TriBeta	is
+14	6841	Pre-health Professionals	makes
+15	6876	Pen 15 Club	it!
+16	8838	Pre-health Professionals	subject
+17	8935	American Chemical Society	420
+18	6307	Pen 15 Club	Swagger
+19	6841	American Chemical Society	Blaze
+20	3750	Pen 15 Club	This
+21	4052	PANDAS	Yolo
+22	5690	PANDAS	Swagger
+23	6841	Pen 15 Club	Hi
+24	7489	Pre-health Professionals	makes
+25	3615	TriBeta	dig
+26	3615	TriBeta	Blaze
+27	7362	TriBeta	can
+28	1994	American Chemical Society	This
+29	7489	American Chemical Society	is
+30	8709	TriBeta	a
+31	8281	PANDAS	makes
+32	8281	American Chemical Society	a
+33	7612	Pen 15 Club	a
+34	8838	Pen 15 Club	is
+35	4052	Pre-health Professionals	predicate
+36	808	Kool Kids Klub	is
+37	8838	Pen 15 Club	verb
+38	4045	Pen 15 Club	makes
+39	7612	American Chemical Society	hair
+40	3750	PANDAS	subject
+41	4052	Pen 15 Club	hair
+42	4404	Pen 15 Club	Shampoo
+43	7362	American Chemical Society	420
+44	4404	PANDAS	Blaze
+45	6841	American Chemical Society	subject
+46	7489	American Chemical Society	Shampoo
+47	4045	PANDAS	awesome
+48	6307	Kool Kids Klub	you
+49	4052	Pen 15 Club	is
+50	5690	TriBeta	Swagger
+51	7362	TriBeta	it!
+52	8709	American Chemical Society	This
+53	7489	Pre-health Professionals	420
+54	8281	Kool Kids Klub	can
+55	4052	Pen 15 Club	a
+56	8281	TriBeta	predicate
+57	808	Pen 15 Club	makes
+58	6876	PANDAS	Hi
+59	3750	Kool Kids Klub	420
+60	8935	American Chemical Society	This
+61	8281	Pen 15 Club	it!
+62	8281	American Chemical Society	awesome
+63	8281	PANDAS	awesome
+64	7489	Pen 15 Club	Blaze
+65	6307	TriBeta	Swagger
+66	7362	Kool Kids Klub	Shampoo
+67	4404	Pre-health Professionals	can
+68	7489	American Chemical Society	dig
+69	4182	TriBeta	dig
+70	6307	TriBeta	Yolo
+71	808	PANDAS	can
+72	3750	Pen 15 Club	can
+73	7362	Kool Kids Klub	can
+74	4182	Kool Kids Klub	message
+75	8838	Kool Kids Klub	Swagger
+76	6307	Pre-health Professionals	This
+77	1994	American Chemical Society	hair
+78	8935	Kool Kids Klub	Blaze
+79	4182	Pre-health Professionals	Yolo
+80	6307	Pre-health Professionals	makes
+81	4404	Pen 15 Club	verb
+82	3615	American Chemical Society	makes
+83	9853	PANDAS	dig
+84	7489	PANDAS	subject
+85	4052	Pen 15 Club	Shampoo
+86	8838	American Chemical Society	makes
+87	4182	TriBeta	This
+88	3615	Kool Kids Klub	predicate
+89	7362	TriBeta	Shampoo
+90	1994	TriBeta	Yolo
+91	8281	PANDAS	verb
+92	8709	PANDAS	awesome
+93	6307	American Chemical Society	you
+94	808	TriBeta	420
+95	8281	Kool Kids Klub	message
+96	9853	American Chemical Society	message
+97	7489	Pen 15 Club	Hi
+98	3615	Kool Kids Klub	can
+99	7612	TriBeta	message

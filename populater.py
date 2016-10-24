@@ -81,9 +81,34 @@ with open("./message_board.txt", 'a') as myFile:
     for i in range(0,100):
         myFile.write(str(i))
         myFile.write('\t')
-        myFile.write(str(members[random.randint(0,50)]))
+        myFile.write(str(members[random.randint(0,19)]))
         myFile.write('\t')
         myFile.write(clubs[random.randint(0,5)])
         myFile.write('\t')
         myFile.write(message[random.randint(0,19)])
+        myFile.write('\n')
+
+with open("./likes_table.txt", 'w') as myFile:
+    for i in range(0,1000):
+        myFile.write(str(i))
+        myFile.write('\t')
+        myFile.write(randomDate("1/1/2008 1:30 PM", "1/1/2015 4:50 AM", random.random()))
+        myFile.write('\t')
+        myFile.write(str(random.randint(0,10000)))
+        myFile.write('\t')
+        myFile.write(clubs[random.randint(0,5)])
+        myFile.write('\t')
+        myFile.write(str(random.randint(0,10000)))
+        myFile.write('\t')
+        myFile.write(message[random.randint(0,19)])
+        myFile.write('\n')
+
+types =['INVITED', 'ACCEPTED' , 'REJECTED']
+with open("./friends_tables.txt", 'w') as myFile:
+    for i in range(0,50000):
+        myFile.write(str(random.randint(0,10000)))
+        myFile.write('\t')
+        myFile.write(str(random.randint(0,10000)))
+        myFile.write('\t')
+        myFile.write(types[random.randint(0,2)])
         myFile.write('\n')
