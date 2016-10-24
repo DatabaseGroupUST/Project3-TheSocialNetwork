@@ -17,7 +17,7 @@ group by club_name;
 --Q4
 select count(like_id) as c, liker_id
 from LIKES
-where author_id = 0
+where author_id = ?
 group by liker_id
 order by c DESC
 limit 3;
