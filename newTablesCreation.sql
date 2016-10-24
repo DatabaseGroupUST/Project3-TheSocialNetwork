@@ -47,4 +47,4 @@ CREATE TABLE FRIENDS
     PRIMARY KEY (person1),
     PRIMARY KEY (person2),
     FOREIGN KEY (person1) REFERENCES STUDENT(person_id)
-)
+);
