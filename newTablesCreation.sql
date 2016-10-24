@@ -1,12 +1,20 @@
-student
-(*person_id, major, admission)
-person_id -> person
-major -> department
+CREATE TABLE STUDENT_CLUBS
+(
+    club_name VARCHAR(255),
+    primary_contact VARCHAR(255),
+    mission_statement VARCHAR(5000)
+    PRIMARY KEY (club_name)
+);
 
-student_clubs
-(*club_name, primary_contact, mission_statement)
-primary_contact -> student
-
+CREATE TABLE MEMBERSHIP
+(
+    club_name VARCHAR(255),
+    member_id INTEGER,
+    start_date DATE,
+    end_date DATE,
+    PRIMARY KEY (club_name),
+    PRIMARY KEY (member_id),
+    FOREIGN KEY (:)
 membership
 (*club_name, *member_id, start_id, end_date)
 club_name -> student_clubs
@@ -25,4 +33,5 @@ friends
 (*person_id, *person_id, friend_status, invite_status)
 person_id -> student
 person_id -> student
+
 
