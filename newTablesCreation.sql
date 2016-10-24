@@ -1,9 +1,10 @@
 CREATE TABLE STUDENT_CLUBS
 (
     club_name VARCHAR(255),
-    primary_contact VARCHAR(255),
+    primary_contact INTEGER NOT NULL,
     mission_statement VARCHAR(5000),
-    PRIMARY KEY (club_name)
+    PRIMARY KEY (club_name),
+    FOREIGN KEY (primary_contact) REFERENCES student(person_id)
 );
 
 CREATE TABLE MEMBERSHIP
