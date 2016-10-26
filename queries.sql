@@ -30,7 +30,6 @@ FROM
     membership AS m, 
     friends AS f
 WHERE
-    person1a = person2b AND
     person1a = [target student_id] AND
     status = 'ACCEPTED'
 group by club_name;
