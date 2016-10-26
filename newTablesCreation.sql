@@ -49,12 +49,15 @@ CREATE TABLE LIKES
 
 CREATE TABLE FRIENDS
 (
+    friend_id INTEGER NOT NULL AUTO_INCREMENT,
     person1a INTEGER NOT NULL,
     person2a INTEGER NOT NULL,
     person2b INTEGER NOT NULL,
     person1b INTEGER NOT NULL,
     status ENUM('INVITED', 'ACCEPTED' , 'REJECTED') NOT NULL,
-    PRIMARY KEY (person1, person2),
-    FOREIGN KEY (person1) REFERENCES student(person_id),
-    FOREIGN KEY (person1) REFERENCES student(person_id)
+    PRIMARY KEY (friend_id),
+    FOREIGN KEY (person1a) REFERENCES student(person_id),
+    FOREIGN KEY (person1b) REFERENCES student(person_id),
+    FOREIGN KEY (person2a) REFERENCES student(person_id),
+    FOREIGN KEY (person2b) REFERENCES student(person_id)
 );
