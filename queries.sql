@@ -23,14 +23,3 @@ group by liker_id
 order by c DESC
 limit 3;
 
--- Q3
-SELECT 
-    m.club_name, 
-    count(m.member_id)
-FROM
-    membership AS m, 
-    friends AS f
-WHERE
-    person1a = [target student_id] AND
-    status = 'ACCEPTED'
-group by club_name;
