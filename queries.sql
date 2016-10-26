@@ -9,9 +9,10 @@ where major = 'MATH'
 group by club_name;
 
 -- Q3
-select club_name, count(member_id)
-from MEMBERSHIP
-where exists (select * from FRIENDS where person1a = ? and person2a = member_id and status = 'ACCEPTED')
+select club_name, count(person2a)
+from FRIENDS
+join MEMBERSHIP on (member_id = person1a)
+where member_id = ? and status = 'ACCEPTED'
 group by club_name;
 
 -- Q4
