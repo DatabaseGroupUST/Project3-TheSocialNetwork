@@ -10,8 +10,8 @@ group by club_name;
 
 -- Q3
 select club_name, count(person2a)
-from FRIENDS
-join MEMBERSHIP on (member_id = person1a)
+from MEMBERSHIP
+join FRIENDS on (member_id = person1a or member_id = person2a)
 where member_id = ? and status = 'ACCEPTED'
 group by club_name;
 
