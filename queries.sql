@@ -11,7 +11,7 @@ group by club_name;
 --Q3
 select club_name, count(member_id)
 from MEMBERSHIP
-where exists (select * from FRIENDS where person1 = ? and person2 = member_id and status = 'ACCEPTED')
+where exists (select * from FRIENDS where person1a = ? and person2b = ? and person2a = member_id and person2b and status = 'ACCEPTED')
 group by club_name;
 
 --Q4
