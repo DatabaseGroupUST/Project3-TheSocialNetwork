@@ -49,8 +49,10 @@ CREATE TABLE LIKES
 
 CREATE TABLE FRIENDS
 (
-    person1 INTEGER NOT NULL,
-    person2 INTEGER NOT NULL,
+    person1a INTEGER NOT NULL,
+    person2a INTEGER NOT NULL,
+    person2b INTEGER NOT NULL,
+    person1b INTEGER NOT NULL,
     status ENUM('INVITED', 'ACCEPTED' , 'REJECTED') NOT NULL,
     PRIMARY KEY (person1, person2),
     FOREIGN KEY (person1) REFERENCES student(person_id),
