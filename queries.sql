@@ -24,13 +24,12 @@ limit 3;
 
 -- Q3
 SELECT 
-    club_name, 
-    count(member_id)
+    m.club_name, 
+    count(m.member_id)
 FROM
-    membership
-JOIN
-    friends
-ON
+    membership AS m, 
+    friends AS f
+WHERE
     person1a = person2b AND
     person1a = [target student_id] AND
     status = 'ACCEPTED'
